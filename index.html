@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/normalize.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Web Dev</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header-navbar">
+
+                <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+                <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                    <span class="material-icons">menu</span>
+                </button>
+
+                <h1 class="navbar-title">Dev</h1>
+                <nav class="navbar-menu">
+                    <button type="button" class="active"><a href="#">Home</a></button>
+                    <button type="button" class=""><a href="#">About</a></button>
+                    <button type="button" class=""><a href="#">Contacts</a></button>
+                </nav>
+            </nav>
+        </header>
+    </div>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
 </body>
 </html>
