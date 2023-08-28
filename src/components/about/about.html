@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/components/about/about.css">
+    <link rel="stylesheet" href="/src/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Web Dev</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header-navbar">
+
+                <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+                <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                    <span class="material-icons">menu</span>
+                </button>
+
+                <h1 class="navbar-title">Dev</h1>
+                <nav class="navbar-menu">
+                    <button type="button" class=""><a href="/index.html">Home</a></button>
+                    <button type="button" class="active"><a href="/src/components/about/about.html">About</a></button>
+                    <button type="button" class=""><a href="/src/components/contacts/contacts.html">Contacts</a></button>
+                </nav>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="timeline">
+                <div class="timeline-box" id="primary">
+                    <div class="icon">
+                        <i class="far fa-grin-wink"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="head">
+                            <span class="badge">Primary</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="timeline-box" id="success">
+                    <div class="icon">
+                        <i class="far fa-grin-tears"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="header">
+                            <span class="badge">success</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="timeline-box" id="danger">
+                    <div class="icon">
+                        <i class="far fa-grin-hearts"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="header">
+                            <span class="badge">danger</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+
+                
+                <div class="timeline-box" id="secondary">
+                    <div class="icon">
+                        <i class="far fa-grin-beam-sweat"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="header">
+                            <span class="badge">secondary</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+
+                
+                <div class="timeline-box" id="warning">
+                    <div class="icon">
+                        <i class="far fa-grimace"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="header">
+                            <span class="badge">warning</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+
+                
+                <div class="timeline-box" id="info">
+                    <div class="icon">
+                        <i class="far fa-grin"></i>
+                    </div>
+                    <div class="timeline-body">
+                        <h4 class="header">
+                            <span class="badge">info</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nihil repellendus velit esse adipisci. Quisquam doloremque quidem autem, hic neque illo facilis odio molestias deleniti dolorem. Eius odio corporis laboriosam!</p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
+</body>
+</html>
