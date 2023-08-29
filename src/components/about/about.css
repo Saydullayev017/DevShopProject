@@ -7,7 +7,6 @@
 body {
     font-family: 'Poppins';
 }
-
 .main {
     max-width: 650px;
     margin: 50px auto;
@@ -121,3 +120,18 @@ p {
     background-color: #42a5f5;
 }
 
+@media screen and (min-width: 300px) {
+
+}
+
+@media (min-width: 300px) and (max-width: 450px) { 
+    .timeline-box {
+        width: 250px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 600px) { 
+    .timeline-box {
+        width: 450px;
+    }
+}
