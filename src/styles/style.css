@@ -15,7 +15,9 @@ body {
 	position: relative;
 	min-height: 100%;
 }
-
+main {
+    padding-bottom: 100px;
+}
 /* ----------------header------------------ */
 button {
     border: 0;
@@ -141,9 +143,6 @@ body.open .navbar-menu {
 /* ------------------------------------------------------ */
 
 
-.main {
-	padding-bottom: 90px;
-}
 .footer {
 	position: absolute;
 	left: 0;
@@ -241,3 +240,5 @@ h6, p {
         width: 750px;
     }
 }
+
+/* -------------------------------------- */
