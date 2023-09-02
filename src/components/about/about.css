@@ -1,28 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins';
+  font-family: 'Poppins';
 }
 .main {
-    max-width: 1050px;
-    margin: 50px auto;
-    padding-top: 10px;
+  max-width: 1050px;
+  margin: 50px auto;
+  padding-top: 10px;
 }
 
 
-
+main {
+  padding-bottom: 100px;
+}
 #text {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
   
 ul {
-    --col-gap: 2rem;
-    --row-gap: 2rem;
+  --col-gap: 2rem;
+  --row-gap: 2rem;
     --line-w: 0.25rem;
     display: grid;
     grid-template-columns: var(--line-w) 1fr;
