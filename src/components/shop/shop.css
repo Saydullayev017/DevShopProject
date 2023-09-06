@@ -73,8 +73,8 @@ justify-content: center;
 }
 
 .card img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     box-shadow:1em 2em 1em 1em rgba(0, 0, 0, 0.3);
 } 
 .card-1,
@@ -102,7 +102,20 @@ justify-content: center;
     border-radius: 10px;
     margin: 10px;
 }
+.price {
+    color: aliceblue;
 
+}
+.card-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: #CDD6DB;
+    opacity: .3;
+    color: #000;
+    height: 50px;
+    border-radius: 10px;
+}
 @media (min-width: 280px) and (max-width: 374px) {
     .products {
     display: flex;
@@ -112,7 +125,16 @@ justify-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+    }
+    section.products {
+        display: grid;
+        padding: 0;
+        padding-top: 200px;
+    }
+    .card img{
+        width: 200px;
+        height: 200px;
+    } 
 }
 @media (min-width: 375px) and (max-width: 539px) {
     .products {
@@ -123,7 +145,30 @@ justify-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+    }
+    section.products {
+        display: grid;
+        padding: 0;
+        padding-top: 200px;
+    }
+    .card img{
+        width: 150px;
+        height: 150px;
+    } 
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6,
+    .card-7,
+    .card-8{
+        margin: 10px;
+        width: 150px;
+    }
+    .card-name {
+        height: 30px;
+    }
 }
 @media (min-width: 540px) and (max-width: 759px) {
     .products {
@@ -134,7 +179,16 @@ justify-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+    }
+    section.products {
+        display: grid;
+        padding: 0;
+        padding-top: 200px;
+    }
+    .card img{
+        width: 250px;
+        height: 250px;
+    } 
 }
 @media (min-width: 760px) and (max-width: 819px) {
     .products {
@@ -145,13 +199,22 @@ justify-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;  
-
-}
+    }
+    section.products {
+        display: grid;
+        padding: 1%;
+        padding-top: 200px;
+    }
 }
 @media (min-width: 820px) and (max-width: 1180px) {
+    section.products {
+        display: grid;
+        padding: 1%;
+        padding-top: 200px;
+    }
     .product-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+    }
 } 
