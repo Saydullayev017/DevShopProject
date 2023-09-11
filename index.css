@@ -11,8 +11,6 @@ main {
     opacity: 0.75;
     border-radius: 20px;
 }
-
-
 .section .section-holder {
     display: grid;
     grid-template-columns: repeat(3, 100%);
@@ -22,7 +20,6 @@ main {
     opacity: 0.75;
     animation: slider 30s ease-in-out infinite alternate;
 }
-
 .section-holder #slider-img-1 {
     background-image: url(/src/assets/slide-1.jpg);
     background-position: center;
