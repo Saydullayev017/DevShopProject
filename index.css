@@ -49,6 +49,23 @@ main {
     20% {transform: translate(-200%);}
 
 }
+/* ------------------------------------------------ */
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.section-cards img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
 @media (min-width: 280px) and (max-width: 374px) {
     .section {
         width: 250px;
