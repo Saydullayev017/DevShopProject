@@ -11,6 +11,20 @@ main {
     opacity: 0.75;
     border-radius: 20px;
 }
+.section_second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.block_1,.block_2,.block_3,.block_4,.block_5,.block_6{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
 .section .section-holder {
     display: grid;
     grid-template-columns: repeat(3, 100%);
