@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Basket</title>
+</head>
+<body>
+    
+
+<!-- Container Wrapper -->
+<div class="wrapper">
+    <!-- Header -->
+    <header class="header">
+        <nav class="header-navbar">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                <span class="material-icons">menu</span>
+            </button>
+
+            <h1 class="navbar-title">Dev</h1>
+            <nav class="navbar-menu">
+                <button type="button" class="active"><a href="index.html">Home</a></button>
+                <button type="button" class=""><a href="/src/components/about/about.html">About</a></button>
+                <button type="button" class=""><a href="/src/components/contacts/contacts.html">Contacts</a></button>
+                <button type="button" class=""><a href="/src/components/shop/shop.html">Shop</a></button>
+            </nav>
+
+            <div class="log">
+                <a href="/src/components/log/log.html"><img src="/src/assets/login.png" style="width: 40px; margin: 10px;" alt=""></a></li>
+                <a href="/src/components/basket/basket.html"><img src="/src/assets/shop.png" style="width: 25px; margin: 10px;" alt=""></a></li>
+            </div>
+
+        </nav>
+    </header>
+</div>
+
+
+<script type="text/javascript">
+    const toggleMenuOpen = () => document.body.classList.toggle("open");
+</script>
+</body>
+</html>
