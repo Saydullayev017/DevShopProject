@@ -19,7 +19,7 @@ main {
     text-align: center;
 }
 
-.block_1,.block_2,.block_3,.block_4,.block_5,.block_6{
+.block{
     border: 2px solid #000;
     border-radius: 10px;
     margin: 10px;
@@ -84,24 +84,33 @@ main {
     .section {
         width: 250px;
     }
+    .block iframe p{
+        width: 200px;
+        height: 200px;
+    }
+
 }
 @media (min-width: 375px) and (max-width: 539px) {
     .section {
         width: 350px;
     }
+    .block iframe {
+        width: 250px;
+        height: 250px;
+    }
 }
 @media (min-width: 540px) and (max-width: 759px) {
-    .section {
+    .section .block{
         width: 450px;
     }
 }
 @media (min-width: 760px) and (max-width: 819px) {
-    .section {
+    .section .block{
         width: 650px;
     }
 }
 @media (min-width: 820px) and (max-width: 1180px) {
-    .section {
+    .section .block{
         width: 750px;
     }
 }
