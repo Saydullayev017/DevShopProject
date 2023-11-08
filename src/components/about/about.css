@@ -199,25 +199,48 @@ ul li:nth-child(odd) .date::before {
 }
   
 
+/* ----------------------------------------------------------- */
 
-/* @media screen and (min-width: 300px) {
-
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
-@media (min-width: 300px) and (max-width: 450px) { 
-    .timeline-box {
-        width: 250px;
-    }
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
 }
 
-@media (min-width: 451px) and (max-width: 499px) { 
-    .timeline-box {
-        width: 350px;
-    }
+@media (min-width: 280px) and (max-width: 374px) {
+  .card {
+    margin: 3px;
+    height: 100px;
+  }
+  .cards {
+
+  }
+}
+@media (min-width: 375px) and (max-width: 539px) {
+  .card {
+    margin: 3px;
+    height: 100px;
+  }
+  .cards {
+    
+  }
+}
+@media (min-width: 540px) and (max-width: 759px) {
+  .card {
+    margin: 3px;
+  }
+  .cards {
+    
+  }
 }
 
-@media (min-width: 500px) and (max-width: 700px) { 
-    .timeline-box {
-        width: 400px;
-    }
-} */
+
