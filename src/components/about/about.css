@@ -70,7 +70,7 @@ ul li {
   
   /* date */
 ul li .date {
-    --dateH: 3rem;
+    --dateH: 2.5rem;
     height: var(--dateH);
     margin-inline: calc(var(--inlineP) * -1);
   
@@ -208,14 +208,21 @@ ul li:nth-child(odd) .date::before {
   margin: 50px;
 }
 
-.card {
+.card img{
   border: 1px solid black;
+  display: inline-block; /* Чтобы контейнер изменялся в размере под фото */
+  padding: 5px; /* При необходимости добавьте отступы вокруг фото */
   border-radius: 10px;
   height: 200px;
   width: 300px;
   margin: 10px;
 }
 
+
+.card img {
+  max-width: 100%; /* Чтобы фото не выходило за пределы контейнера */
+  height: auto;
+}
 @media (min-width: 280px) and (max-width: 374px) {
   .card {
     margin: 3px;
