@@ -200,53 +200,57 @@ ul li:nth-child(odd) .date::before {
   
 
 /* ----------------------------------------------------------- */
+.section_title{
+  text-align: center;
+  font-family: "Poppins";
+  font-style: italic;
+  font-size: 30px;
+  color: whitesmoke;
+  display: inline;
+}
+.text {
+  position: relative;
+  top: 40px;
+  box-shadow:1em 1em 1em rgba(0, 0, 0, 0.5);
 
+}
 .cards {
+  max-width: 900px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 50px;
 }
 
 .card img{
-  border: 1px solid black;
   display: inline-block; /* Чтобы контейнер изменялся в размере под фото */
   padding: 5px; /* При необходимости добавьте отступы вокруг фото */
-  border-radius: 10px;
-  height: 200px;
-  width: 300px;
+  border-radius: 50%;
   margin: 10px;
-}
-
-
-.card img {
   max-width: 100%; /* Чтобы фото не выходило за пределы контейнера */
   height: auto;
+  border: 1px solid fuchsia;
+  box-shadow:1em 1em 1em rgba(0, 0, 0, 0.5);
 }
+.card {margin: 20px;}
+
+  
 @media (min-width: 280px) and (max-width: 374px) {
   .card {
-    margin: 3px;
+    margin: 10px;
     height: 100px;
-  }
-  .cards {
-
   }
 }
 @media (min-width: 375px) and (max-width: 539px) {
   .card {
-    margin: 3px;
+    margin: 10px;
     height: 100px;
   }
-  .cards {
-    
-  }
+
 }
 @media (min-width: 540px) and (max-width: 759px) {
   .card {
-    margin: 3px;
-  }
-  .cards {
-    
+    margin: 10px;
   }
 }
 

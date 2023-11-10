@@ -31,12 +31,14 @@ main {
     background-color: gray;
     width: 100px;
     border-radius: 10px;
+    
 }
 
 @media (min-width: 280px) and (max-width: 374px) {
     .section-search{
         width: 250px;
     }
+
 }
 @media (min-width: 375px) and (max-width: 539px) {
     .section-search {

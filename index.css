@@ -19,12 +19,7 @@ main {
     text-align: center;
 }
 
-.block{
-    border: 2px solid #000;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
+
 .section .section-holder {
     display: grid;
     grid-template-columns: repeat(3, 100%);
@@ -65,6 +60,7 @@ main {
 }
 /* ------------------------------------------------ */
 
+
 .section-cards {
     display: flex;
     justify-content: center;
@@ -80,13 +76,21 @@ main {
     margin: 10px;
     border-radius: 20px;
 }
+.block iframe{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 60vw;
+    height: 40vh;
+}
 @media (min-width: 280px) and (max-width: 374px) {
     .section {
         width: 250px;
     }
     .block iframe p{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 
 }
@@ -95,8 +99,8 @@ main {
         width: 350px;
     }
     .block iframe {
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
     }
 }
 @media (min-width: 540px) and (max-width: 759px) {
