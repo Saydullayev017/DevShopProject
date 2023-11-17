@@ -77,12 +77,28 @@ main {
     border-radius: 20px;
 }
 .block iframe{
-    border: 2px solid #000;
-    border-radius: 10px;
+    
     margin: 10px;
     padding: 10px;
     width: 60vw;
     height: 40vh;
+}
+.block {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: wheat;
+    margin: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+}
+.tittle_card {
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-title {
+    
 }
 @media (min-width: 280px) and (max-width: 374px) {
     .section {
