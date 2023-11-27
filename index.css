@@ -59,7 +59,13 @@ main {
 
 }
 /* ------------------------------------------------ */
-
+#section-title {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:1em 1em 1em 1em rgba(0, 0, 0, 0.3);
+}
 
 .section-cards {
     display: flex;

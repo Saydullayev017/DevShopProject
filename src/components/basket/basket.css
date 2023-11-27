@@ -1,0 +1,99 @@
+.main {
+  padding-top: 100px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+
+#cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 60%;
+  padding: 30px;
+}
+
+.cart-item {
+  width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #19191c;
+  color: white;
+  padding: 20px;
+  box-shadow:1em 2em 1em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+#title {
+  background-color: white;
+  box-shadow:1em 2em 1em 1em rgba(0, 0, 0, 0.3);
+}
+
+.remove-item-button{
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+.increase-quantity-button {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+.remove-item-button:hover,
+.increase-quantity-button:hover {
+  background-color: #d32f2f;
+}
+
+@media (min-width: 280px) and (max-width: 374px) {
+    #cart-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+
+}
+@media (min-width: 375px) and (max-width: 539px) {
+    #cart-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+}
+@media (min-width: 540px) and (max-width: 759px) {
+    #cart-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 80%;
+      }
+}
+@media (min-width: 760px) and (max-width: 819px) {
+    #cart-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+}
