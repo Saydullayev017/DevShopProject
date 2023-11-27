@@ -25,7 +25,7 @@
 
             <h1 class="navbar-title">Dev</h1>
             <nav class="navbar-menu">
-                <button type="button" class=""><a href="index.html">Home</a></button>
+                <button type="button" class=""><a href="/index.html">Home</a></button>
                 <button type="button" class=""><a href="/src/components/about/about.html">About</a></button>
                 <button type="button" class=""><a href="/src/components/contacts/contacts.html">Contacts</a></button>
                 <button type="button" class=""><a href="/src/components/shop/shop.html">Shop</a></button>
@@ -38,9 +38,15 @@
 
         </nav>
     </header>
+
+    <main>
+        <h1>Корзина</h1>
+
+        <div id="cart-items"></div>
+    </main>
 </div>
 
-
+<script src="/src/js/index.js"></script>
 <script type="text/javascript">
     const toggleMenuOpen = () => document.body.classList.toggle("open");
 </script>
