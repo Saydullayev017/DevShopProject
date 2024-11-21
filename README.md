@@ -3,7 +3,9 @@
 
 ---
 
-https://devshopproject.netlify.app ^Deploy^ 
+| Deployed with netlify.com |
+
+https://devshopproject.netlify.app 
 
 ### Stack
 
