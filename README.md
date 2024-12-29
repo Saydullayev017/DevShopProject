@@ -5,7 +5,7 @@
 
 | Deployed with netlify.com |
 
-https://devshopproject.netlify.app 
+https://dev-shop-project.vercel.app
 
 ### Stack
 
